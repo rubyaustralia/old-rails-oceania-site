@@ -29,7 +29,7 @@ a:hover {
 }
 
 #header {
-	background: #ff9b05 url(../images/header_bg.png) repeat-x top left;
+	background: #ff9b05 url(/images/header_bg.png) repeat-x top left;
 	border-top: 1px solid #bf853f;
 	border-bottom: 1px solid #ffb33e;
 	float: left;
@@ -37,7 +37,7 @@ a:hover {
 }
 
 #header h1 {
-	background: transparent url(../images/header.png) no-repeat top left;
+	background: transparent url(/images/header.png) no-repeat top left;
 	height: 97px;
 	margin: 0 24px 0 24px;	
 	text-indent: -9000px;
@@ -123,7 +123,7 @@ h2, h2 a {
 
 #beer {
 	margin-top: 36px;
-	background: transparent url(../images/beer.png) no-repeat top left;
+	background: transparent url(/images/beer.png) no-repeat top left;
 	color: #666;
 	font-size: 175%;
 	font-family: "Times New Roman", serif;
