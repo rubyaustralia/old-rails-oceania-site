@@ -1,0 +1,182 @@
+/*  
+Theme Name: Ales on Rails
+Description: An alcoholic theme
+*/
+
+html, body {
+	font-family: Arial, Sans-Serif;
+	font-size: small;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #fff9e5;
+}
+
+h2 {
+	margin: 12px 0 0 0;
+} 
+
+a {
+	color: #de8500;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #9e4500;
+	text-decoration: underline;	
+}
+
+#header {
+	background: #ff9b05 url(../images/header_bg.png) repeat-x top left;
+	border-top: 1px solid #bf853f;
+	border-bottom: 1px solid #ffb33e;
+	float: left;
+	width: 100%;
+}
+
+#header h1 {
+	background: transparent url(../images/header.png) no-repeat top left;
+	height: 97px;
+	margin: 0 24px 0 24px;	
+	text-indent: -9000px;
+	width: 645px;
+}
+
+#bar {
+	color: white;
+	background-color: black;
+	padding: 6px 0 6px 0;
+	float: left;
+	width: 100%;
+	font-size: 115%;
+}
+
+#bar_width {
+	width: 690px;
+}
+
+#bar span {
+	float: left;
+	margin-left: 12px;
+}
+
+#bar a {
+	float: right;
+	color: #ffc05f;
+	margin-right: 12px;
+	text-decoration: none;
+}
+
+#content {
+	float: left;
+	width: 500px;
+	padding: 24px 24px 12px 24px;
+	clear: both;
+}
+
+.intro {
+	color: #666;
+	font-size: x-large;
+	font-family: "Times New Roman", serif;
+	padding-bottom: 24px;
+}
+
+.intro img {
+	float: left;
+}
+
+h2, h2 a {
+	color: #7d3b00;
+	font-size: large;
+	font-variant: small-caps;
+	text-decoration: none;
+}
+
+#content h2, #content h2 a {
+  font-size: 140%;
+}
+
+.entrymeta, #footer {
+	font-size: smaller;
+	margin-top: 12px;
+	color: #888;
+}
+
+#sidebar {
+	float: left;
+	margin-top: 24px;
+	padding: 0 0 32px 18px;
+	border-left: 1px solid #e5d3b7;
+}
+
+#sidebar ul {
+	list-style: none;
+}
+
+#footer {
+	float: left;
+	clear: left;
+	padding: 28px 24px 24px 24px;
+}
+
+#beer {
+	margin-top: 36px;
+	background: transparent url(../images/beer.png) no-repeat top left;
+	color: #666;
+	font-size: 175%;
+	font-family: "Times New Roman", serif;
+	padding: 6px 0 12px 60px;
+}
+
+/*************************************
+ +Comments
+ *************************************/
+.commentsblock{
+	margin:2em 0 0.5em 0;
+	padding:1em 0 1em 0;
+border-top: 1px dashed #ddd;
+}
+.commentsblock textarea{
+	width:35em;
+}
+.commentsblock input, .commentsblock textarea{
+	border:1px solid #d1d1d1;
+}
+.commentsblock textarea:focus{
+	background:#eee;
+	border:1px solid #a1a1a1;
+}
+.commentsblock textarea:focus, .commentsblock input:focus{
+	background:#eee;
+	border:1px solid #a1a1a1;
+}
+.commentauthor{
+	display:block;
+	font-size:1.5em;
+}
+ol.commentlist{
+	color:#777;
+	font-size:0.9em;
+	list-style-type:none;
+	margin:0;
+	margin-top:1.5em;
+	padding:0;
+}
+.commentlist li{
+	margin-bottom:0.5em;
+	padding:0.5em 1em;
+}
+.alt{
+	background:#f3f5e9;
+	border:1px dotted #d1d1d1;
+	padding:0.5em;
+}
+h3#comments{
+font-size:1.6em;
+}
+input, textarea { 
+  margin: 12px 8px 0 0;
+  padding: 4px;
+}
